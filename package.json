@@ -1,0 +1,14 @@
+{
+  "name": "mit-mas665-assignments",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "winston-ai-mcp-server"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace winston-ai-mcp-server",
+    "start": "npm run start --workspace winston-ai-mcp-server",
+    "lint": "npm run lint --workspace winston-ai-mcp-server",
+    "test": "npm run test --workspace winston-ai-mcp-server"
+  }
+}
